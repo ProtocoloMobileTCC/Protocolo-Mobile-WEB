@@ -1,0 +1,23 @@
+@charset "utf-8";
+@font-face{
+	font-family: Myriad Pro;
+	src: url(MyriadProRegular.otf);
+}
+body{
+	background:url(Imagens/fundo.jpg);
+	background-size: 100%;
+}
+*{
+	font-family: Myriad Pro;
+	text-decoration:none;
+	color: #000;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Div do include menu_lateral.php*/
+
+div.include{
+	margin-top:-20px;	
+}
